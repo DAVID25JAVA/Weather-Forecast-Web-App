@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(14, 13, 13);
+}
+
+.box{
+    width: 450px;
+    height: 550px;
+    border: 1px solid rgb(255, 255, 255);
+    background:linear-gradient(to bottom right, #00ffff 0%, #99ff33 87%);
+    margin: auto;
+    transform: translateY(30px);
+    border-radius: 20px;
+}   
+
+.top-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.top-content input{
+    height: 50px;
+    width: 290px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+.top-content i{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+  .cloud-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 165px;
+    
+  }
+
+.temp{
+     transform: translateX(10.5em);
+     padding-top: 40px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+h3{
+    padding-top: 10px;
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.humidity{
+    display: flex;
+     padding-left: 45px; 
+     gap: 15px;
+}
+
+.wind-speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.wind-speed1{
+    display: flex;
+    padding-right: 45px;
+    gap: 15px;
+
+}
+
+.water i{
+    font-size: 50px;
+    color: white;
+}
+
+ .water-level{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+ }
+
+ .humi{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 30px;
+
+ }
+
+ .speed i{
+    font-size: 50px;
+    color: white;
+ }
+
+ .kmph{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+ }
+
+  
